@@ -11,53 +11,53 @@ root.geometry("750x500")
 ## defining functions for zoom links ## 
 #mon
 def biology():
-    webbrowser.open('https://gardenschool.zoom.us/j/95437832068?pwd=K1Z0SjQyWDh6L0lnNFZDV0RsN0ZUUT09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def history():
-    webbrowser.open('https://gardenschool.zoom.us/j/95575655186?pwd=RS92UDZ4RTRIS0xxd0g5a0l0L0dJZz09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def english():
-    webbrowser.open('https://gardenschool.zoom.us/j/96823418337?pwd=bWFBd0Y5NGRlVUNYTm5STGRhSDhDQT09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def physics():
-    webbrowser.open('https://gardenschool.zoom.us/j/94350319339?pwd=cmlURmhmL0cramlKbWpGVTNTalpqZz09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 
 #tuesday
 def english():
-    webbrowser.open('https://gardenschool.zoom.us/j/96823418337?pwd=bWFBd0Y5NGRlVUNYTm5STGRhSDhDQT09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def history():
-    webbrowser.open('https://gardenschool.zoom.us/j/95575655186?pwd=RS92UDZ4RTRIS0xxd0g5a0l0L0dJZz09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def cs():
-    webbrowser.open('https://gardenschool.zoom.us/j/92092880370?pwd=b1RlNUFpR3k5ejZZbyt5ci90ZGFKdz09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def math():
-    webbrowser.open('https://gardenschool.zoom.us/j/99638429784?pwd=UHRsdXFJZThhMVRwUnNwUXV2K0d1Zz09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 
 #wednesday
 def chemistry():
-    webbrowser.open('https://gardenschool.zoom.us/j/7962610360') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def physics():
-    webbrowser.open('https://gardenschool.zoom.us/j/94350319339?pwd=cmlURmhmL0cramlKbWpGVTNTalpqZz09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def english():
-    webbrowser.open('https://gardenschool.zoom.us/j/96823418337?pwd=bWFBd0Y5NGRlVUNYTm5STGRhSDhDQT09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def math():
-    webbrowser.open('https://gardenschool.zoom.us/j/99638429784?pwd=UHRsdXFJZThhMVRwUnNwUXV2K0d1Zz09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 
 #thursday
 def chemistry():
-    webbrowser.open('https://gardenschool.zoom.us/j/7962610360') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def math():
-    webbrowser.open('https://gardenschool.zoom.us/j/99638429784?pwd=UHRsdXFJZThhMVRwUnNwUXV2K0d1Zz09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def cs():
-    webbrowser.open('https://gardenschool.zoom.us/j/92092880370?pwd=b1RlNUFpR3k5ejZZbyt5ci90ZGFKdz09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def economics():
-    webbrowser.open('https://gardenschool.zoom.us/j/96347923163?pwd=SHdvbC9hQjUybDRCTHVEZk5mRmc0UT09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 
 #friday
 def pe():
-    webbrowser.open('https://gardenschool.zoom.us/j/5013154009') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def gap():
-    webbrowser.open('https://gardenschool.zoom.us/j/3343226053') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def economics():
-    webbrowser.open('https://gardenschool.zoom.us/j/96347923163?pwd=SHdvbC9hQjUybDRCTHVEZk5mRmc0UT09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 def biology():
-    webbrowser.open('https://gardenschool.zoom.us/j/95437832068?pwd=K1Z0SjQyWDh6L0lnNFZDV0RsN0ZUUT09') #insert zoom link here
+    webbrowser.open(#insert zoom link here)
 
 
 
