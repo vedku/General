@@ -4,10 +4,9 @@ from random import randint
 def addition():
     difficulty = int(input("How many seconds of calculation would you like to allow yourself before the answer is displayed?\nInput:"))
     a_digit_choice = int(input("What is the maximum amount of digits you want to work with?\nInput:"))
-    range_start = 10 ** (a_digit_choice - 1)
     range_end = (10 ** a_digit_choice) - 1
-    a1 = randint(range_start, range_end)
-    a2 = randint(range_start, range_end)
+    a1 = randint(1, range_end)
+    a2 = randint(1, range_end)
     print(a1, "+", a2)
     ans = a1 + a2
     time.sleep(difficulty)
@@ -16,10 +15,9 @@ def addition():
 def subtraction():
     difficulty = int(input("How many seconds of calculation would you like to allow yourself before the answer is displayed?\nInput:"))
     a_digit_choice = int(input("What is the maximum amount of digits you want to work with?\nInput:"))
-    range_start = 10 ** (a_digit_choice - 1)
     range_end = (10 ** a_digit_choice) - 1
-    a1 = randint(range_start, range_end)
-    a2 = randint(range_start, range_end)
+    a1 = randint(1, range_end)
+    a2 = randint(1, range_end)
     print(a1, "-", a2)
     ans = a1 - a2
     time.sleep(difficulty)
