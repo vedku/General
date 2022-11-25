@@ -85,9 +85,6 @@ def roots():
     print(ans)
 
 
-#using multiple factors (capital and lowercase letters)
-#for the function to run made them run chronologically
-#so I replaced the initials with numbers to avoid confusion
 operation_choice = input("Would you like to practice\naddition [1]\nsubraction [2]\nmultiplication [3]\ndivision [4]?\nindices[5]\nroots[6]\nInput:")
 if operation_choice == "1":
     addition()
