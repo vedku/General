@@ -7,7 +7,7 @@ root = Tk()
 root.title("DO NOT CLICK THE BUTTON")
 root.geometry("1920x1080") 
 def trolled(): 
-    webbrowser.open("https://www.youtube.com/watch?v=tTwhAyiNzkI")
+    webbrowser.open("https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Trollface_non-free.png/220px-Trollface_non-free.png")
 '''
 Text1 = Text(root, "hellO")
 Text1.grid(row=0,column=2)
