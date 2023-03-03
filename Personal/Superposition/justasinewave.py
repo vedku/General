@@ -12,5 +12,5 @@ def update(frame):
     line.set_ydata(y)
     return line,
 
-youwerethechosenone = ani.FuncAnimation(fig, update, frames=200, interval=60, blit=True)
+youwerethechosenone = ani.FuncAnimation(fig, update, frames=200, interval=50, blit=True)
 plt.show()
