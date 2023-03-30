@@ -1,19 +1,29 @@
-import matplotlib.pyplot as plt
 import numpy as np
+import matplotlib.pyplot as plt
+from scipy import stats
 
-def create_scatter_plot_with_best_fit_line(x_values, y_values):
+def remove_outliers(x_values, y_values, threshold=2):
+    xy_pairs = np.column_stack((x_values, y_values))
+    z_scores = np.abs(stats.zscore(xy_pairs))
+    filtered_entries = (z_scores < threshold).all(axis=1)
+    return xy_pairs[filtered_entries, 0], xy_pairs[filtered_entries, 1]
+
+def graph(x_values, y_values):
     plt.scatter(x_values, y_values, label='Data Points')
-    
+
+    #removing anomalies
+    x_values_filtered, y_values_filtered = remove_outliers(x_values, y_values)
+
     #gradient
-    min_index = np.argmin(x_values)
-    max_index = np.argmax(x_values)
-    x1, y1 = x_values[min_index], y_values[min_index]
-    x2, y2 = x_values[max_index], y_values[max_index]
+    min_index = np.argmin(x_values_filtered)
+    max_index = np.argmax(x_values_filtered)
+    x1, y1 = x_values_filtered[min_index], y_values_filtered[min_index]
+    x2, y2 = x_values_filtered[max_index], y_values_filtered[max_index]
+
+    #lobf
     gradient = (y2 - y1) / (x2 - x1)
     y_intercept = y1 - gradient * x1
     print(f"Gradient: {gradient}, Y-Intercept: {y_intercept}")
-
-    #lobf
     best_fit_line = [gradient * x + y_intercept for x in x_values]
     plt.plot(x_values, best_fit_line, label='Best Fit Line', color='red')
 
@@ -23,8 +33,8 @@ def create_scatter_plot_with_best_fit_line(x_values, y_values):
     plt.legend()
     plt.show()
 
-#these values are from an Ohm's law experiment
+#changed the 700 y value to 2 to demonstrate how outliers are ignored
 x_values = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
-y_values = [0.28, 0.56, 0.81, 1.08, 1.34, 1.63, 1.86, 2.13, 2.40, 2.61]
+y_values = [0.28, 0.56, 0.81, 1.08, 1.34, 2, 1.86, 2.13, 2.40, 2.61]
 
-create_scatter_plot_with_best_fit_line(x_values, y_values)
+graph(x_values, y_values)
